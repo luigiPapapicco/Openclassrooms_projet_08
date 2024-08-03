@@ -11,18 +11,28 @@
 	<meta name="robots" content="index,follow">
 	<!-- gestion des tel  -->
 	<meta name="format-detection" content="telephone=no">
+	
+	<!-- gestion du css -->
 	<link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="assets/style.css">
+
+
+	<!-- gestion de police -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<script src="assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="assets/maugallery.js"></script>
-	<script src="assets/scripts.js"></script>
+	
+	<!-- gestion du javascript -->
+	<script src="assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+	<script src="assets/maugallery.js" defer></script>
+	<script src="assets/scripts.js" defer></script>
 </head>
+
+
 <body>
 <header>
+	<!-- title & nav -->
 	<div class="top-header">
 		<h1 class="name">Nina Carducci</h1>
 		<nav class="nav">   
@@ -35,8 +45,8 @@
 			</ul>
 		</nav>
 	</div>
+	<!-- slider -->
 	<div id="header">
-	
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -65,11 +75,13 @@
 		</div>
 	</div>
 </header>
+
 <main>
+	<!-- section about -->
 	<section>
 		<div id="about">
 			<div class="picture left">
-				<img src="./assets/images/nina.png">
+				<img src="assets/images/nina.png">
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
@@ -79,6 +91,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- section gallery -->
 	<section>
 		<div id="gallery">
 			<h2 class="title">Portfolio</h2>
@@ -107,6 +120,7 @@
 			</aside>
 		</div>
 	</section>
+	<!-- section services -->
 	<section>
 		<div id="services">
 			<h2 class="title">Mes services</h2>
@@ -144,6 +158,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- aquote -->
 	<aside>
 		<div class="quote">
 			<figure>
@@ -154,6 +169,7 @@
 			</figure>
 		</div>
 	</aside>
+	<!-- contact -->
 	<section>
 		<div id="contact">
 			<div class="container">
@@ -177,6 +193,7 @@
 		</div>
 	</section>
 </main>
+
 <footer>
 	<ul>
 		<li>Adresse:</li>

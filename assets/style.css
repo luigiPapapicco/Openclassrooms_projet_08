@@ -6,6 +6,7 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+/* header */
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -41,7 +42,7 @@ body {
 .social-link img {
 	width: 20px;
 }
-
+/* about */
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -85,22 +86,29 @@ body {
 	font-style: italic;
 	width: 60%;
 }
-.about-me__introduction, h3 {
-	font-size: 1rem;
+.about-me__introduction h3 {
+	font-family: 'Spectral';
+	font-weight: 800;
+	font-style: italic;
+	width: 60%;
 }
 
+.intro-h3 {
+	font-size: 1rem;
+}
 
 #about-me p {
 	width: 80%;
 	font-size: 14px;
 }
-
+/* gallerie */
 #gallery {
 	/*	min-height: 100vh; */
 }
 .title{
 	text-align: center;
 	padding-block: 2em;
+	font-size: 1.75rem;
 }
 .gallery .nav {
 	justify-content: center;
@@ -140,7 +148,7 @@ body {
 	display: flex;
 	font-size: 24px;
 }
-
+/* quote */
 .quote {
 	font-family: 'Spectral';
 	font-style: italic;
@@ -152,6 +160,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2.5rem;
 
 }
 .quote__author {
@@ -159,7 +168,7 @@ body {
 	font-weight: 800;
 	font-size: 22px;
 }
-
+/* service */
 #services {
 	margin: auto;
 	background-color: #A8D5D8 ;
@@ -195,6 +204,14 @@ body {
 	z-index: 1;
 }
 
+.service__title {
+	font-size: 1.75rem;
+}
+
+.price {
+	font-size: 1.5rem;
+}
+
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
@@ -206,6 +223,11 @@ body {
 #contact .container {
 	display: flex;
 }
+
+.contact-title {
+	font-size: 1.75rem;
+}
+
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;

@@ -6,6 +6,13 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+img {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
 /* header */
 .top-header {
 	background-color: white;

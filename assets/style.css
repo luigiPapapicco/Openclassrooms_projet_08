@@ -188,8 +188,9 @@ img {
 
 }
 #about-me {
-	flex: 2
+	flex: 2;
 }
+
 .about-me__title {
 	margin-top: 1em;
 	margin-bottom: 60px;
@@ -201,12 +202,14 @@ img {
 	font-style: italic;
 	width: 60%;
 }
-.about-me__introduction h3 {
+.about-me__introduction h3,
+.about-me__introduction strong{
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
 }
+
 
 .intro-h3 {
 	font-size: 1rem;
@@ -217,6 +220,13 @@ img {
 	width: 80%;
 	font-size: 14px;
 }
+
+.about-me__content strong {
+	width: 80%;
+	font-size: 14px;
+	font-weight: normal;
+}
+
 /* gallerie */
 #gallery {
 		/* min-height: 100vh; */

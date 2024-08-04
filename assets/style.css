@@ -118,7 +118,7 @@ img {
 
 /* header */
 .copyright {
-	font-size: 0.4em;
+	font-size: 0.5em;
 	vertical-align: top;
 }
 
@@ -338,6 +338,12 @@ img {
 
 .service__title {
 	font-size: 1.75rem;
+	font-weight: none;
+}
+
+.service__content strong {
+	font-size: 1rem;
+	font-weight: normal;
 }
 
 .price {

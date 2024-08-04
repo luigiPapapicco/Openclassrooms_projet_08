@@ -120,11 +120,17 @@ img {
 }
 .gallery .nav {
 	justify-content: center;
+
+}
+
+.nav-link {
+	cursor: pointer;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #5e5926;
 	border-radius:0 ;
+	cursor: pointer;
 }
 .nav-pills .nav-link {
 	color: #000

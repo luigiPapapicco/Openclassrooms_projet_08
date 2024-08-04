@@ -12,11 +12,12 @@
 	<!-- gestion des tel  -->
 	<meta name="format-detection" content="telephone=no">
 	
-	<!-- gestion du css -->
-	<link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/style.css">
 
-
+	<!-- Preload Bootstrap CSS -->
+	<link rel="preload" href="assets/bootstrap/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<!-- Preload custom style CSS -->
+	<link rel="preload" href="assets/style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	
 	<!-- gestion de police -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

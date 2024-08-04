@@ -102,7 +102,7 @@ img {
 
 .intro-h3 {
 	font-size: 1rem;
-	width: 100%;
+	width: 60%;
 }
 
 #about-me p {
@@ -340,6 +340,10 @@ footer ul {
 		text-align: center;
 		margin-top: 1em;
 	}
+	.intro-h3 {
+		width: 100%;
+	}
+	
 	#services .container {
 		flex-direction: column;
 	}

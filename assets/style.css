@@ -114,9 +114,11 @@ img {
     display: block
 }
 
+
+
 /* header */
 .copyright {
-	font-size: 0.5em;
+	font-size: 0.4em;
 	vertical-align: top;
 }
 
@@ -498,8 +500,7 @@ footer ul {
         justify-content: space-around
     }
 }
-
-@media all and (max-width: 650px) {
+@media all and (max-width: 745px) {
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
@@ -513,6 +514,10 @@ footer ul {
 		padding-block: 1em;
 		text-align: center;
 	}
+}
+
+@media all and (max-width: 650px) {
+
 	.picture.left::before, .picture.right::before {
 		height: 150px;
 	}
@@ -532,6 +537,10 @@ footer ul {
 	.picture {
 		width: 80%;
 	}
-
+	
 }
-
+@media all and (max-width: 330px) {
+	.nav li {
+		padding-inline: 9px;
+	}
+}

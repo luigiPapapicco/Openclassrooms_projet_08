@@ -313,7 +313,7 @@ input[type="submit"] {
 }
 
 /* footer */
-footer {
+.info-perso {
 	display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -325,18 +325,18 @@ footer {
 	text-align: center;
 }
 
-footer li {
+.info-perso li {
     list-style: none
 }
 
-footer ul {
+.info-perso ul {
 	margin: 10px;
 	padding: 0px;
 }
 
-footer .telephone {
-	color: white;
-	text-decoration: none;
+.info-perso .telephone {
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
 	cursor: pointer;
 }
 /* mediaquery */
@@ -423,7 +423,7 @@ footer .telephone {
 		right: 0;
 		z-index: -1;
 	}
-	footer {
+	.info-perso {
         display: flex;
         flex-direction: column;
         justify-content: space-around

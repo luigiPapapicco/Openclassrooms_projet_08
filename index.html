@@ -1,91 +1,97 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- balise title -->
-	<title>Nina Carducci - Photographe de Bordeaux</title>
-	<!-- meta description -->
-	<meta name="description" content="Nina Carducci, photographe de Bordeaux, capture vos moments précieux : mariages, portraits, concerts, entreprises, et bien plus. Réservez pour immortaliser vos souvenirs.">
-	<!-- meta pour l'indexation par les robots -->
-	<meta name="robots" content="index,follow">
-	<!-- gestion des tel  -->
-	<meta name="format-detection" content="telephone=no">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- balise title -->
+		<title>Nina Carducci - Photographe à Bordeaux</title>
+		<!-- meta description -->
+		<meta name="description" content="Nina Carducci, photographe professionnelle basée à Bordeaux, spécialisée dans les mariages, portraits, concerts, et plus. Réservez dès maintenant pour capturer vos précieux souvenirs.">
+		<!-- meta pour l'indexation par les robots -->
+		<meta name="robots" content="index,follow">
+		
+		<!-- balises canoniques pour éviter le contenu dupliqué -->
+		<link rel="canonical" href="https://luigipapapicco.github.io/Openclassrooms_projet_08/">
 	
-	<!-- css -->
-	<link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/style.min.css">
-	<!-- fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<!-- js -->
-	<script src="assets/bootstrap/bootstrap.bundle.min.js" ></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
-	<script src="assets/maugallery.min.js" defer></script>
-	<script src="assets/scripts.min.js" defer></script>
+		<!-- Chargement direct des styles critiques -->
+		<link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/style.min.css">
 
-	<!-- twitter card -->
-	<meta name="twitter:card" content="summary_large_image" >
-	<meta name="twitter:site" content="@NinaCarducci" >
-	<meta name="twitter:title" content="Nina Carducci, photographe professionnelle basée à Bordeaux" >
-	<meta name="twitter:description" content="Nina Carducci, photographe de Bordeaux, capture vos moments précieux : mariages, portraits, concerts, entreprises, et bien plus. Réservez pour immortaliser vos souvenirs." >
-	<meta name="twitter:image" content="https://raw.githubusercontent.com/luigiPapapicco/Openclassrooms_projet_08/main/assets/images/slider/edward-cisneros-photos-responsives/Photograph-of-a-married-couple-dancing-width1200.webp" >
-	<meta name="twitter:url" content="https://luigipapapicco.github.io/Openclassrooms_projet_08/" >
+		<!-- Preloading fonts for improved loading speed -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript><link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet"></noscript>
 
-	<!-- Open Graph -->
-	<meta property="og:site_name" content="Nina Carducci, photographe professionnelle basée à Bordeaux" >
-	<meta property="og:type" content="website" >
-	<meta property="og:url" content="https://luigipapapicco.github.io/Openclassrooms_projet_08/" >
-	<meta property="og:title" content="Nina Carducci Photographe - Capturer Vos Moments Précieux" >
-	<meta property="og:description" content="Nina Carducci, photographe de Bordeaux, capture vos moments précieux : mariages, portraits, concerts, entreprises, et bien plus. Réservez pour immortaliser vos souvenirs." >
-	<meta property="og:image" content="https://raw.githubusercontent.com/luigiPapapicco/Openclassrooms_projet_08/main/assets/images/slider/edward-cisneros-photos-responsives/Photograph-of-a-married-couple-dancing-width1200.webp" >
-
-	<!-- businessSeoData -->
-	<script type="application/ld+json">
-		{
-		  "@context": "https://schema.org",
-		  "@type": "LocalBusiness",
-		  "name": "Nina Carducci Photographe",
-		  "description": "Photographe professionnel spécialisé dans la photographie de mariage, portrait et événementielle.",
-		  "image": "https://raw.githubusercontent.com/luigiPapapicco/Openclassrooms_projet_08/main/assets/images/nina-carducci-photos-responsives/Photograph-by-the-photographer-Nina-Carducci-width560.webp",
-		  "@id": "https://luigipapapicco.github.io/Openclassrooms_projet_08/",
-		  "url": "https://luigipapapicco.github.io/Openclassrooms_projet_08/",
-		  "telephone": "+33556677889",
-		  "address": {
-			"@type": "PostalAddress",
-			"streetAddress": "68 avenue Alsace-Lorraine",
-			"addressLocality": "Bordeaux",
-			"postalCode": "33200",
-			"addressCountry": "FR"
-		  },
-		  "geo": {
-			"@type": "GeoCoordinates",
-			"latitude": 44.841225,
-			"longitude": -0.574978
-		  },
-		  "openingHoursSpecification": {
-			"@type": "OpeningHoursSpecification",
-			"dayOfWeek": [
-			  "Monday",
-			  "Tuesday",
-			  "Wednesday",
-			  "Thursday",
-			  "Friday"
-			],
-			"opens": "10:00",
-			"closes": "19:00"
-		  },
-		  
-		  "sameAs": [
-			"https://www.facebook.com/profile.php?id=61551904838249",
-			"https://www.instagram.com/ninacarducci.photo"
-		  ],
-		  "priceRange": "€50 - €400"
-		}
-	</script>
-
-</head>
+		<!-- js -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+		<script src="assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+		<script src="assets/maugallery.min.js" defer></script>
+		<script src="assets/scripts.min.js" defer></script>
+	
+		<!-- twitter card -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@NinaCarducci">
+		<meta name="twitter:title" content="Nina Carducci, photographe professionnelle basée à Bordeaux">
+		<meta name="twitter:description" content="Nina Carducci, photographe de Bordeaux, capture vos moments précieux : mariages, portraits, concerts, entreprises, et bien plus. Réservez pour immortaliser vos souvenirs.">
+		<meta name="twitter:image" content="https://raw.githubusercontent.com/luigiPapapicco/Openclassrooms_projet_08/main/assets/images/slider/edward-cisneros-photos-responsives/Photograph-of-a-married-couple-dancing-width1200.webp">
+		<meta name="twitter:url" content="https://luigipapapicco.github.io/Openclassrooms_projet_08/">
+	
+		<!-- Open Graph -->
+		<meta property="og:site_name" content="Nina Carducci, photographe professionnelle basée à Bordeaux">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://luigipapapicco.github.io/Openclassrooms_projet_08/">
+		<meta property="og:title" content="Nina Carducci Photographe - Capturer Vos Moments Précieux">
+		<meta property="og:description" content="Nina Carducci, photographe de Bordeaux, capture vos moments précieux : mariages, portraits, concerts, entreprises, et bien plus. Réservez pour immortaliser vos souvenirs.">
+		<meta property="og:image" content="https://raw.githubusercontent.com/luigiPapapicco/Openclassrooms_projet_08/main/assets/images/slider/edward-cisneros-photos-responsives/Photograph-of-a-married-couple-dancing-width1200.webp">
+		<meta property="og:image:type" content="image/webp">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
+	
+		<!-- JSON-LD pour les données structurées -->
+		<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "LocalBusiness",
+			  "name": "Nina Carducci Photographe",
+			  "description": "Photographe professionnel spécialisé dans la photographie de mariage, portrait et événementielle.",
+			  "image": "https://raw.githubusercontent.com/luigiPapapicco/Openclassrooms_projet_08/main/assets/images/nina-carducci-photos-responsives/Photograph-by-the-photographer-Nina-Carducci-width560.webp",
+			  "@id": "https://luigipapapicco.github.io/Openclassrooms_projet_08/",
+			  "url": "https://luigipapapicco.github.io/Openclassrooms_projet_08/",
+			  "telephone": "+33556677889",
+			  "address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"addressCountry": "FR"
+			  },
+			  "geo": {
+				"@type": "GeoCoordinates",
+				"latitude": 44.841225,
+				"longitude": -0.574978
+			  },
+			  "openingHoursSpecification": {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+				  "Monday",
+				  "Tuesday",
+				  "Wednesday",
+				  "Thursday",
+				  "Friday"
+				],
+				"opens": "10:00",
+				"closes": "19:00"
+			  },
+			  "sameAs": [
+				"https://www.facebook.com/profile.php?id=61551904838249",
+				"https://www.instagram.com/ninacarducci.photo"
+			  ],
+			  "priceRange": "€50 - €400"
+			}
+		</script>
+	
+	</head>
 
 
 <body>

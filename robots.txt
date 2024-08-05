@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://luigipapapicco.github.io/Openclassrooms_projet_08/sitemap.xml

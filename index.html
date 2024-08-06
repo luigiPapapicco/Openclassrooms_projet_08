@@ -22,7 +22,6 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-
 		<!-- js -->
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 		<script src="assets/bootstrap/bootstrap.bundle.min.js" defer></script>
@@ -524,16 +523,18 @@
 		</div>
 	</section>
 	<!-- informations perso -->
-	<section >
+	<section>
 		<div itemscope itemtype="http://schema.org/LocalBusiness" class="info-perso">
 			<ul>
 				<li><strong itemprop="name">Nina Carducci Photographe</strong></li>
+			</ul>
+			<ul>
 				<li>Adresse :</li>
 				<li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 					<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span><br>
 					<span itemprop="postalCode">33200</span> 
 					<span itemprop="addressLocality">Bordeaux</span><br>
-					<span itemprop="addressCountry">France</span>
+					<span itemprop="addressCountry">FR</span>
 				</li>
 			</ul>
 			<ul>
@@ -542,15 +543,13 @@
 			</ul>
 			<ul>
 				<li>Horaires d'ouverture :</li>
-				<li itemprop="openingHours">
-					Du lundi au vendredi de 
-					<time itemprop="opens" datetime="10:00">10:00</time> à 
-					<time itemprop="closes" datetime="19:00">19:00</time>
+				<li itemprop="openingHours" content="Mo-Fr 10:00-19:00">
+					Du lundi au vendredi de 10:00 à 19:00
 				</li>
 			</ul>
 		</div>
-
 	</section>
+	
 </footer>
 
 </body>

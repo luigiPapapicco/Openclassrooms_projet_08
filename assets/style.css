@@ -16,7 +16,10 @@ img {
     display: block
 }
 
-
+.visually-hidden {
+	background: #000;
+	color: #fff;
+}
 
 /* header */
 .copyright {
@@ -59,6 +62,47 @@ img {
 .social-link img {
 	width: 20px;
 }
+/* slider */
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+	background-color: #000000;
+}
+
+/* .carousel-control-next, 
+.carousel-control-prev {
+	opacity: 1 !important;
+} */
+
+
+#carouselExampleIndicators .carousel-control-next-icon,
+#carouselExampleIndicators .carousel-control-prev-icon {
+
+  padding: 15px;
+  border-radius: 25px;
+  background-color: var(--nina-carousel-btns-bg-color);
+  filter: drop-shadow(0 0 0.5rem rgb(71, 71, 71));
+  border: 0.4rem solid transparent;
+}
+
+#carouselExampleIndicators .carousel-indicators-container {
+  background-color: var(--nina-carousel-btns-bg-color);
+  border-radius: 100%;
+}
+
+#carouselExampleIndicators .carousel-control-next .carousel-control-next-icon,
+#carouselExampleIndicators .carousel-control-prev .carousel-control-prev-icon {
+  transition: all 0.25s ease-in;
+  background-color: #000000;
+}
+
+#carouselExampleIndicators .carousel-control-next:focus-within .carousel-control-next-icon,
+#carouselExampleIndicators .carousel-control-prev:focus-within .carousel-control-prev-icon {
+  transform: scale(1.8);
+  border: solid 2px #fff;
+  transition: all 0.25s ease-in;
+}
+
+
 /* about */
 #about {
 	display: flex;
